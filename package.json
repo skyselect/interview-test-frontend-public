@@ -1,0 +1,22 @@
+{
+  "name": "FEInterview",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "concurrently --kill-others \"npm run fe:start\" \"npm run be:start\"",
+    "fe:start": "gulp watch",
+    "be:start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "concurrently": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  }
+}
