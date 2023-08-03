@@ -27,14 +27,14 @@ app.get('/api/v1/card-data', (req, res) => {
     card_number: '98K7830H005-000',
     card_company: 'SkySelect Inc.',
     due_in: 31,
-    created_at: '2021-04-21',
-    card_status: 'medium',
+    created_at: '2023-07-21',
+    card_status: 'medium'
   });
 });
 
 app.get('/api/v1/card-status', (req, res) => {
   res.json({
-    card_status: currentCardStatus,
+    card_status: currentCardStatus
   });
 });
 

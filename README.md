@@ -17,6 +17,15 @@ Don't hesitate to use Google - like you do in your normal daily work environment
 
 ### How to run the project
 
+First, use a recent Node version. We recommend 18.x, but anything above 14.x should be supported.
+
+If you have nvm installed, just run:
+
+```bash
+nvm install
+nvm use
+```
+
 In project root folder, install dependencies using `npm install` and run the project using `npm run start`. 
 Now start editing the files and you should be good to go!
 
